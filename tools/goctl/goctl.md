@@ -1,5 +1,7 @@
 # goctl使用
 
+把 goctl.go 文件编译一下，添加到环境变量，即可作为goctl工具使用。
+
 ## goctl用途
 
 * 定义api请求
@@ -19,6 +21,8 @@
   > -dir 自定义生成目录
 
 #### API 语法说明
+
+goctl api是goctl中的核心模块之一，其可以通过.api文件一键快速生成一个api服务。
 
 ```golang
 
